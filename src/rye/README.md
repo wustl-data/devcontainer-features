@@ -1,26 +1,20 @@
 
-# My Favorite Color (color)
+# Rye (rye)
 
-A feature to remind you of your favorite color
+A New Kind Of Package Management Solution for Python
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/color:1": {
-        "version": "latest"
-    }
+    "ghcr.io/wustl-data/devcontainer-features/rye:1": {}
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/wustl-data/devcontainer-features/blob/main/src/rye/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
