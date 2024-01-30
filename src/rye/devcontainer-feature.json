@@ -1,14 +1,15 @@
 {
     "name": "Rye",
     "id": "rye",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "description": "A New Kind Of Package Management Solution for Python",
     "installsAfter": [
         "mcr.microsoft.com/devcontainers/python"
     ],
     "containerEnv": {
         "RYE_INSTALL_OPTION": "--yes",
-        "RYE_HOME": "/usr/local/share/rye"
+        "RYE_HOME": "/usr/local/share/rye",
+        "RYE_TOOLCHAIN": "/usr/local/bin/python"
     },
     "postAttachCommand": "echo '. /usr/local/share/rye/env' >> $HOME/.bashrc"
 }
