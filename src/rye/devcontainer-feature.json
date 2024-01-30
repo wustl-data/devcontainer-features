@@ -1,7 +1,7 @@
 {
     "name": "Rye",
     "id": "rye",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "A New Kind Of Package Management Solution for Python",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
