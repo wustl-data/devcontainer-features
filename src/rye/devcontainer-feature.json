@@ -5,5 +5,11 @@
     "description": "A New Kind Of Package Management Solution for Python",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
-    ]
+    ],
+    "containerEnv": {
+        "RYE_INSTALL_OPTION": "--yes"
+    },
+    "postCreateCommand": "echo 'source $HOME/.rye/env' >> ~/.profile",
+    "postAttachCommand": "${containerWorkspaceFolder}/.rye/shims/rye sync"
+    
 }
