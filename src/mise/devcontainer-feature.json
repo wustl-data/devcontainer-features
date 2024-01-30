@@ -5,9 +5,5 @@
     "description": "The front-end to your dev env",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
-    ],
-    "containerEnv": {
-        "RYE_INSTALL_OPTION": "--yes",
-        "RYE_HOME": "/usr/local/share/rye"
-    }
+    ]
 }
