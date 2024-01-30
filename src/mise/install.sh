@@ -1,5 +1,4 @@
 #!/bin/sh
 set -e
 
-curl https://mise.jdx.dev/install.sh | sh
-sudo mv $HOME/.local/bin/mise /usr/local/bin/mise
+curl https://mise.jdx.dev/mise-latest-linux-x64 > /usr/local/bin/mise
