@@ -8,7 +8,7 @@
     ],
     "containerEnv": {
         "RYE_INSTALL_OPTION": "--yes",
-        "RYE_HOME": "/usr/local"
+        "RYE_HOME": "/opt/rye"
     },
-    "postCreateCommand": "echo 'source /usr/local/.rye/env' >> ~/.profile"
+    "postCreateCommand": "echo 'source /opt/rye/env' >> ${localEnv:HOME}/.profile"
 }
