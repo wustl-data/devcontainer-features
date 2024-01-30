@@ -1,14 +1,14 @@
 {
     "name": "Rye",
     "id": "rye",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "A New Kind Of Package Management Solution for Python",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ],
     "containerEnv": {
         "RYE_INSTALL_OPTION": "--yes",
-        "RYE_HOME": "${containerWorkspaceFolder}"
+        "RYE_HOME": "/usr/local"
     },
-    "postCreateCommand": "echo 'source $RYE_HOME/.rye/env' >> ~/.profile"
+    "postCreateCommand": "echo 'source /usr/local/.rye/env' >> ~/.profile"
 }
