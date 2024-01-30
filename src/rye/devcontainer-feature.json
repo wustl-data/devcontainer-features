@@ -1,7 +1,7 @@
 {
     "name": "Rye",
     "id": "rye",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "description": "A New Kind Of Package Management Solution for Python",
     "installsAfter": [
         "mcr.microsoft.com/devcontainers/python"
@@ -11,5 +11,5 @@
         "RYE_HOME": "/usr/local/share/rye",
         "RYE_TOOLCHAIN": "/usr/local/bin/python"
     },
-    "postCreateCommand": "echo '. /usr/local/share/rye/env' >> $HOME/.profile"
+    "postCreateCommand": "echo '. /usr/local/share/rye/env' >> $HOME/.bashrc"
 }
