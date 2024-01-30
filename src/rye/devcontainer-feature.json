@@ -4,7 +4,7 @@
     "version": "1.0.19",
     "description": "A New Kind Of Package Management Solution for Python",
     "installsAfter": [
-        "mcr.microsoft.com/devcontainers/python"
+        "mcr.microsoft.com/devcontainers/python:3.11"
     ],
     "containerEnv": {
         "RYE_INSTALL_OPTION": "--yes",
