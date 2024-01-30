@@ -1,7 +1,7 @@
 {
     "name": "Rye",
     "id": "rye",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A New Kind Of Package Management Solution for Python",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
@@ -10,6 +10,6 @@
         "RYE_INSTALL_OPTION": "--yes"
     },
     "postCreateCommand": "echo 'source $HOME/.rye/env' >> ~/.profile",
-    "postAttachCommand": "${containerWorkspaceFolder}/.rye/shims/rye sync"
+    "postAttachCommand": "${localEnv:HOME}/.rye/shims/rye sync"
     
 }
