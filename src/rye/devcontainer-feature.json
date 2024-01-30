@@ -1,7 +1,7 @@
 {
     "name": "Rye",
     "id": "rye",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "description": "A New Kind Of Package Management Solution for Python",
     "installsAfter": [
         "mcr.microsoft.com/devcontainers/python"
